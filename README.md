@@ -23,9 +23,9 @@ Installation
 This version works for OpenFOAM-2.1
 
 * Prepare a directory on your system, e.g.:
-  'mkdir ~/OpenFOAM/flamletFoam/'
+  `mkdir ~/OpenFOAM/flamletFoam/`
 * Download the flameletFoam using git:
-  'git pull https://github.com/flameletFoam/flameletFoam-2.1.x/ ~/OpenFOAM/flameletFoam/'
+  `git pull https://github.com/flameletFoam/flameletFoam-2.1.x/ ~/OpenFOAM/flameletFoam/`
 * Set an environment variable to the src folder:
-  'export LIB_FLAMELET_SRC=~/OpenFOAM/flameletFoam/flameletFoam-2.1.x/src/'
-* Execute './Allwmake'
+  `export LIB_FLAMELET_SRC=~/OpenFOAM/flameletFoam/flameletFoam-2.1.x/src/`
+* Execute `./Allwmake`
