@@ -1,8 +1,7 @@
 flameletFoam-2.1.x
 ==================
 
-Short Description
-==================
+## Short Description
 
 This code realizes a steady laminar flamelet approach for turbulent non-premixed combustion.
 The solver is based on ''rhoReactingFoam'', i.e. it is pressure-based (PISO), compressible and runs with both LES and RAS turbulence.
@@ -17,15 +16,34 @@ In doing so, the expensive solution of chemical mechanisms during run-time can b
 More information is available on the Extend-bazaar page:
 https://openfoamwiki.net/index.php/Extend-bazaar/Toolkits
 
-Installation
-==================
+## Installation
 
 This version works for OpenFOAM-2.1
 
-* Prepare a directory on your system, e.g.:
+* Prepare a directory on your system, e.g.:  
+
   `mkdir ~/OpenFOAM/flamletFoam/`
+
 * Download the flameletFoam using git:
+
   `git pull https://github.com/flameletFoam/flameletFoam-2.1.x/ ~/OpenFOAM/flameletFoam/`
+
 * Set an environment variable to the src folder:
+
   `export LIB_FLAMELET_SRC=~/OpenFOAM/flameletFoam/flameletFoam-2.1.x/src/`
+
 * Execute `./Allwmake`
+
+## Tutorials
+
+There is a RANS and a LES tutorial available:
+
+  `cd ./tutorials/pilotedDiffusionFlame/ras/`
+  `./Allrun`
+
+## Notes
+
+More information on using flameletFoam, in particular a description of the workflow including table-generation, is available on:
+https://openfoamwiki.net/index.php/Extend-bazaar/Toolkits
+
+Please feel free to contact me should you find bugs or have suggestions how to make the code better!
