@@ -1,1 +1,0 @@
-../derivedFvPatchFields/wallFunctions/alphaSgsWallFunctions/alphaSgsJayatillekeWallFunction/alphaSgsJayatillekeWallFunctionFvPatchScalarField.C

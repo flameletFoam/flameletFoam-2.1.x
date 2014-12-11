@@ -1,1 +1,0 @@
-../GenSGSStress/GenSGSStress.C

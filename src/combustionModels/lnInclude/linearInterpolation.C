@@ -1,1 +1,0 @@
-../flameletTable/linearInterpolation/linearInterpolation.C

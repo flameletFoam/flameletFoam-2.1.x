@@ -1,1 +1,0 @@
-../derivedFvPatchFields/turbulentTemperatureCoupledBaffle/turbulentTemperatureCoupledBaffleFvPatchScalarField.C

@@ -1,6 +1,6 @@
 EXE_INC = \
     -I$(LIB_FLAMELET_SRC)/thermophysicalModels/basic/lnInclude \
-    -I$(LIB_FLAMELET_SRC)/thermophysicalModels/specie/lnInclude \
+    -I$(LIB_SRC)/thermophysicalModels/specie/lnInclude \
     -I$(LIB_FLAMELET_SRC)/thermophysicalModels/reactionThermo/lnInclude \
     -I$(LIB_FLAMELET_SRC)/turbulenceModels/compressible/turbulenceModel \
     -I$(LIB_FLAMELET_SRC)/turbulenceModels/ \

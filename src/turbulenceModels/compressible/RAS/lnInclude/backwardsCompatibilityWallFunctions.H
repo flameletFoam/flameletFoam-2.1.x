@@ -1,1 +1,0 @@
-../backwardsCompatibility/wallFunctions/backwardsCompatibilityWallFunctions.H

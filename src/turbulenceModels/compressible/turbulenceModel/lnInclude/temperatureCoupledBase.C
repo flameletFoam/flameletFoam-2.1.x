@@ -1,1 +1,0 @@
-../derivedFvPatchFields/temperatureCoupledBase/temperatureCoupledBase.C

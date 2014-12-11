@@ -1,1 +1,0 @@
-../derivedFvPatchFields/wallFunctions/muSgsWallFunctions/muSgsUSpaldingWallFunction/muSgsUSpaldingWallFunctionFvPatchScalarField.H
